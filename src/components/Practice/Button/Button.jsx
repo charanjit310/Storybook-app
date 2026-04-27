@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import classNames from "classnames";
+import styles from "./Button.module.scss";
 
 const Button = ({
   children,
@@ -24,6 +25,7 @@ const Button = ({
   );
 
   const classes = classNames(
+    styles.button,
     "btn",
     `btn-${color}`,
     size && `btn-${size}`,

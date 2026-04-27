@@ -3,7 +3,7 @@ import Button from "./Button";
 const colors = ["primary", "secondary", "danger", "outline-primary"];
 
 export default {
-  title: "Assignment/Button",
+  title: "Practice/Button",
   component: Button,
 
   argTypes: {
